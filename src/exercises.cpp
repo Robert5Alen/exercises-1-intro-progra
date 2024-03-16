@@ -26,7 +26,7 @@ else {
 }
 
 void exercise_2(double A, double B, double C) {
-pow(A,2)+B*
+
 }
 
 void exercise_3(int a, int b) {
