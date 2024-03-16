@@ -27,10 +27,16 @@ else {
 
 void exercise_2(double A, double B, double C) {
 
-}
+cout<< (-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)<<" ";
+
+cout<< (-B-sqrt(pow(B,2)-(4*A*C)))/(2*A);
+
+
+
 
 void exercise_3(int a, int b) {
-  // TODO: YOUR CODE HERE
+  
+  
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
