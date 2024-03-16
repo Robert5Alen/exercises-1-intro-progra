@@ -27,9 +27,19 @@ else {
 
 void exercise_2(double A, double B, double C) {
 
-cout<< (-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)<<" ";
+ if((-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)==sqrt(-1)) 
+ {cout<<"";}
 
-cout<< (-B-sqrt(pow(B,2)-(4*A*C)))/(2*A);
+ else {
+  cout<< (-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)<<" ";
+ }
+
+ if((-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)==sqrt(-1)) 
+ {cout<<"";}
+
+ else {
+  cout<< (-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)<<"\n";
+ }
 
 
 }
