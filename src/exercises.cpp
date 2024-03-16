@@ -32,7 +32,7 @@ cout<< (-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)<<" ";
 cout<< (-B-sqrt(pow(B,2)-(4*A*C)))/(2*A);
 
 
-
+}
 
 void exercise_3(int a, int b) {
   
