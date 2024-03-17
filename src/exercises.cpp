@@ -47,7 +47,7 @@ void exercise_2(double A, double B, double C) {
 void exercise_3(int a, int b) {
   
   if (b==0){
-  cout<<"Imposible"<<endl;
+  cout<<"Impossible"<<endl;
 }
 
 else
@@ -59,16 +59,16 @@ cout<<a/b<<endl;
 void exercise_4(double n, double a, double b, double x, double y) 
 {
   
-  if (n>a)
+  if (n>a && n>b)
   {
 
-x=(x/100)*n;
-cout<<n-x<<endl;
-  }
-else if(n>b)
-{
 y=(y/100)*n;
 cout<<n-y<<endl;
+  }
+else if(n>a)
+{
+x=(x/100)*n;
+cout<<n-x<<endl;
 
 }
 
@@ -101,7 +101,21 @@ cout<<"lower-case alphabet"<<endl;
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
+  
+switch(number){
+
+case 0:
+cout<<"Invalid input"<<endl;
+break;
+
+case 2:
+cout<<"Martes"<<endl;
+break;
+
+case 4:
+cout<<"Jueves"<<endl;
+break;
+}
 }
 
 void exercise_7(double r) {
