@@ -52,12 +52,28 @@ void exercise_3(int a, int b) {
 
 else
 {
-cout<<a/b<<endl
+cout<<a/b<<endl;
 
 }
 }
 void exercise_4(double n, double a, double b, double x, double y) {
-  // TODO: YOUR CODE HERE
+  
+  if (n>a)
+  {
+
+x=(x/100)*n;
+cout<<n-x<<end;
+  }
+else if(n>b)
+{
+y=(y/100)*n;
+cout<<n-y<<end;
+
+}
+
+else{
+  cout<<n<<endl;
+}
 }
 
 void exercise_5(char character) {
