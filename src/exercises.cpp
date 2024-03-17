@@ -35,7 +35,7 @@ void exercise_2(double A, double B, double C) {
  }
 
  if((-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)==sqrt(-1)) 
- {cout<<"";}
+ {cout<<"\n";}
 
  else {
   cout<< (-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)<<"\n";
@@ -46,9 +46,16 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   
-  
+  if (b==0){
+  cout<<"Imposible"<<endl;
 }
 
+else
+{
+cout<<a/b<<endl
+
+}
+}
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 }
