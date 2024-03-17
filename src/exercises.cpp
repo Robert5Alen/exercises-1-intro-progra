@@ -31,14 +31,14 @@ void exercise_2(double A, double B, double C) {
  {cout<<"";}
 
  else {
-  cout<< (-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)<<" ";
+  cout<<(-B+sqrt(pow(B,2)-(4*A*C)))/(2*A)<<" ";
  }
 
  if((-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)==sqrt(-1)) 
  {cout<<"\n";}
 
  else {
-  cout<< (-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)<<"\n";
+  cout<<(-B-sqrt(pow(B,2)-(4*A*C)))/(2*A)<<"\n";
  }
 
 
