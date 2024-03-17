@@ -94,7 +94,7 @@ cout<<"lower-case alphabet"<<endl;
   else
   {
 
-    cout<<"not a alfabet"<<endl;
+    cout<<"not an alfabet"<<endl;
   }
 
 
@@ -108,18 +108,45 @@ case 0:
 cout<<"Invalid input"<<endl;
 break;
 
+case 1:
+cout<<"Monday"<<endl;
+break;
+
 case 2:
-cout<<"Martes"<<endl;
+cout<<"Tuesday"<<endl;
+break;
+
+case 3:
+cout<<"Wednesday"<<endl;
 break;
 
 case 4:
-cout<<"Jueves"<<endl;
+cout<<"Thursday"<<endl;
+break;
+
+case 5:
+cout<<"Friday"<<endl;
+break;
+
+case 6:
+cout<<"Saturday"<<endl;
+break;
+
+case 7:
+cout<<"Sunday"<<endl;
 break;
 }
 }
 
 void exercise_7(double r) {
-  // TODO: YOUR CODE HERE
+  if(r>=0){
+cout<<4*3.14000431361*pow(r,2)<<endl;
+  }
+  
+  else
+  {
+    cout<<"Error: Radius cannot be negative."<<endl;
+  }
 }
 
 void exercise_8(long int seconds) {
