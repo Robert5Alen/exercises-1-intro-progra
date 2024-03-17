@@ -56,18 +56,19 @@ cout<<a/b<<endl;
 
 }
 }
-void exercise_4(double n, double a, double b, double x, double y) {
+void exercise_4(double n, double a, double b, double x, double y) 
+{
   
   if (n>a)
   {
 
 x=(x/100)*n;
-cout<<n-x<<end;
+cout<<n-x<<endl;
   }
 else if(n>b)
 {
 y=(y/100)*n;
-cout<<n-y<<end;
+cout<<n-y<<endl;
 
 }
 
@@ -77,7 +78,26 @@ else{
 }
 
 void exercise_5(char character) {
-  // TODO: YOUR CODE HERE
+  if (character >=65 && character <=90)
+  {
+
+cout<<"upper-case alphabet"<<endl;
+
+  }
+
+  else if (character >=97 && character <=122)
+  {
+cout<<"lower-case alphabet"<<endl;
+
+  }
+
+  else
+  {
+
+    cout<<"not a alfabet"<<endl;
+  }
+
+
 }
 
 void exercise_6(int number) {
