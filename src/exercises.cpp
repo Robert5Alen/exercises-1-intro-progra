@@ -154,7 +154,9 @@ cout<<4*3.14*pow(r,2)<<endl;
 
 void exercise_8(long int seconds) {
   
-  if(seconds/3600<10)
+  if(seconds>=0)
+  {
+ if(seconds/3600<10)
   {
 
     cout<<"0"<<seconds/3600;
@@ -190,6 +192,13 @@ cout<<":"<<(seconds/60);
 cout<<":"<<seconds;
 
   }
+
+  }
+  
+ else{
+
+  cout<<"Error: Input seconds cannot be negative."<<endl;
+ }
   
 }
 
