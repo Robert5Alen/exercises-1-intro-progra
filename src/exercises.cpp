@@ -94,7 +94,7 @@ cout<<"lower-case alphabet"<<endl;
   else
   {
 
-    cout<<"not an alfabet"<<endl;
+    cout<<"not an alphabet"<<endl;
   }
 
 
@@ -135,12 +135,15 @@ break;
 case 7:
 cout<<"Sunday"<<endl;
 break;
+
+default:cout<<"Invalid input"<<endl;
+break;
 }
 }
 
 void exercise_7(double r) {
   if(r>=0){
-cout<<4*3.14000431361*pow(r,2)<<endl;
+cout<<4*3.14*pow(r,2)<<endl;
   }
   
   else
@@ -150,11 +153,48 @@ cout<<4*3.14000431361*pow(r,2)<<endl;
 }
 
 void exercise_8(long int seconds) {
-  // TODO: YOUR CODE HERE
+  
+  if(seconds/3600<10)
+  {
+
+    cout<<"0"<<seconds/3600;
+  }
+
+  else{
+cout<<seconds/3600;
+
+  }
+
+  seconds=seconds-(seconds/3600)*3600;
+
+    if(seconds/60<10)
+  {
+
+    cout<<":0"<<seconds/60;
+  }
+
+  else{
+cout<<":"<<(seconds/60);
+
+  }
+
+  seconds=seconds-(seconds/60)*60;
+
+    if(seconds<10)
+  {
+
+    cout<<":0"<<seconds;
+  }
+
+  else{
+cout<<":"<<seconds;
+
+  }
+  
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
+  
   return "";
 }
 
