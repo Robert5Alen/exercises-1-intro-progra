@@ -185,11 +185,11 @@ cout<<":"<<(seconds/60);
     if(seconds<10)
   {
 
-    cout<<":0"<<seconds;
+    cout<<":0"<<seconds<<endl;
   }
 
   else{
-cout<<":"<<seconds;
+cout<<":"<<seconds<<endl;
 
   }
 
